@@ -1,0 +1,69 @@
+/* Basic styling for the website */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #2b433b;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgb(161, 152, 152);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #eaf4ea;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #140202;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 1;
+}
